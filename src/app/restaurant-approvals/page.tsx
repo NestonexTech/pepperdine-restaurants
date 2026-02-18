@@ -317,7 +317,7 @@ export default function RestaurantApprovalsPage() {
 
   return (
     <>
-    <AdminLayout currentPage="menu">
+    <AdminLayout activeItem="menu">
       <div className="flex flex-col gap-4 max-w-[1000px] min-w-0 w-full mx-auto">
         <h1 className="text-[#030401] font-semibold text-base sm:text-lg leading-tight" style={{ fontFamily: "Onest, sans-serif" }}>
           Pending Approvals
